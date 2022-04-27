@@ -47,8 +47,15 @@ function EventListeners(){
 function Insurance(make,el,level) {
     this.make=make;
     this.level=level;
-    this.el=employers liability limit;
+    this.el=limit;
 }
+
+function Insurance(make,pl,level) {
+    this.make=make;
+    this.level=level;
+    this.pl=limit;
+}
+
 Insurance.prototype.calculateQuote= function(insurance){
     // console.log(insurance);
     let price;
