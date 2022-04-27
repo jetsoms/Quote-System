@@ -155,7 +155,7 @@ HTMLUI.prototype.showResults=function(price,insurance){
     <p>Make or Model: ${make}</p>
     <p>Year of Manufacture: ${insurance.year}</p>
     <p>Level of insurance: ${insurance.level}</p>
-    <p class="total"> Total Price: &#x20b9 ${price}</p>
+    <p class="total"> Total Price: &pound ${price}</p>
     `;
 
     //inserting the spinner
