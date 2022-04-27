@@ -24,7 +24,7 @@ function EventListeners(){
         //Validating whether there is input or not
         if(make==="" || year === "" || level === ""){
             console.log("error sent");
-            html.displayError('All Fields are empty...')
+            html.displayError('All Fields are empty, please correct...')
         }
         else{
             //to remove existing div
