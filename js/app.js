@@ -44,10 +44,10 @@ function EventListeners(){
     });
     
 }
-function Insurance(make,year,level) {
+function Insurance(make,el,level) {
     this.make=make;
     this.level=level;
-    this.year=year;
+    this.el=employers liability limit;
 }
 Insurance.prototype.calculateQuote= function(insurance){
     // console.log(insurance);
